@@ -1,6 +1,6 @@
 # 🤖 Predicting Diabetes with Machine Learning
 
-This project was built as part of my Machine Learning coursework at **UMT**. The goal was to build a complete ML pipeline to predict diabetes using real-world health data from the BRFSS 2015 dataset. It includes data cleaning, preprocessing, model comparison, and performance evaluation.
+This project was built as part of my machine learning journey. The goal was to build a complete ML pipeline to predict diabetes using real-world health data from the **BRFSS 2015** dataset. It includes data cleaning, preprocessing, model comparison, and performance evaluation.
 
 ---
 
@@ -45,19 +45,25 @@ The dataset includes the following medical features:
 
 ## ✅ Results
 
-- **XGBoost** performed the best:
-  - **Accuracy:** `83.6%`
-  - **F1-Score:** `0.795870`
-- XGBoost consistently performed better across varying training set sizes, peaking at `79.6%` when using 100% of training data.
+After evaluating all four models, here’s the final performance comparison:
+
+| **Model**              | **Accuracy** | **F1-Score** |
+|------------------------|--------------|--------------|
+| XGBoost                | 83.6%        | 0.795870     |
+| Logistic Regression    | 83.3%        | 0.789844     |
+| Random Forest          | 82.4%        | 0.787020     |
+| Decision Tree          | 73.9%        | 0.746779     |
+
+🔍 **XGBoost** showed the best overall performance, achieving the highest accuracy and F1-Score among all tested models.
 
 ---
 
 ## 📊 Visuals Included
 
-- Feature distribution plots
-- Confusion matrices for all models
-- Model comparison charts
-- F1-Score vs. Training Data Size graph
+- 📌 Feature distribution plots  
+- 📌 Confusion matrices for all models  
+- 📌 Model performance comparison  
+- 📌 F1-Score vs. Training Data Size graph  
 
 ---
 
