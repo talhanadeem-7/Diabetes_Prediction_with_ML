@@ -1,92 +1,84 @@
-# Diabetes_Prediction_with_ML
-This project was built as part of my machine learning journey, where I aimed to develop a complete, real-world ML pipeline to predict diabetes using health indicators from the BRFSS 2015 dataset.
+# 🤖 Predicting Diabetes with Machine Learning
 
-📌 Project Overview
-Objective: Predict whether an individual has diabetes based on various health metrics
+This project was built as part of my Machine Learning coursework at **UMT**. The goal was to build a complete ML pipeline to predict diabetes using real-world health data from the BRFSS 2015 dataset. It includes data cleaning, preprocessing, model comparison, and performance evaluation.
 
-Dataset: BRFSS 2015 health survey data
+---
 
-Tech Stack: Python, Pandas, Scikit-learn, XGBoost, Seaborn, Jupyter Notebook
+## 📌 Project Overview
 
+- **Objective:** Predict whether an individual has diabetes based on diagnostic health indicators.
+- **Dataset:** Behavioral Risk Factor Surveillance System (BRFSS) 2015
+- **Workflow:** Data Exploration → Preprocessing → Model Training → Evaluation
+- **Models Used:** Logistic Regression, Decision Tree, Random Forest, XGBoost
+- **Best Model:** XGBoost with 83.6% Accuracy and 0.795870 F1-Score
 
-🔍 What I Did
-🧹 Data Cleaning: Removed duplicate rows and verified class distribution
+---
 
-📊 EDA: Visualized health features such as Age, BMI, HbA1c, and Glucose
+## 🗂️ Dataset
 
-⚙️ Preprocessing:
+The dataset includes the following medical features:
 
-Feature scaling using StandardScaler
+- Age  
+- Body Mass Index (BMI)  
+- HbA1c Level  
+- Blood Glucose Level  
+- Physical and mental health indicators  
+- Smoking, alcohol, and exercise habits  
+- And other relevant diagnostic attributes  
 
-Encoding with ColumnTransformer
+---
 
-Combined using Pipeline
+## 🔍 What I Did
 
+- 🧹 **Data Cleaning:** Removed duplicates, verified class balance  
+- 📊 **Exploratory Data Analysis (EDA):** Visualized distributions and key features  
+- ⚙️ **Preprocessing:** 
+  - Scaled features using `StandardScaler`  
+  - Encoded categorical data with `ColumnTransformer`  
+  - Used `Pipeline` to streamline preprocessing and modeling  
+- 🤖 **Model Training:** Trained and tested four classifiers  
+- 📈 **Model Evaluation:** Accuracy, Precision, Recall, F1-Score, ROC-AUC  
+- 🧪 **Overfitting Check:** Compared train vs test performance  
+- 🧮 **Training Size Impact:** Evaluated model accuracy with different train sizes
 
-🤖 Modeling:
+---
 
-Trained 4 models: Logistic Regression, Decision Tree, Random Forest, and XGBoost
+## ✅ Results
 
+- **XGBoost** performed the best:
+  - **Accuracy:** `83.6%`
+  - **F1-Score:** `0.795870`
+- XGBoost consistently performed better across varying training set sizes, peaking at `79.6%` when using 100% of training data.
 
-📈 Evaluation:
+---
 
-Metrics used: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+## 📊 Visuals Included
 
-Compared model performance
+- Feature distribution plots
+- Confusion matrices for all models
+- Model comparison charts
+- F1-Score vs. Training Data Size graph
 
-Checked for overfitting and tested the impact of different training sizes
+---
 
+## ⚙️ Technologies Used
 
-✅ Results
-Best Model: XGBoost
+- Python  
+- Jupyter Notebook  
+- Pandas, NumPy  
+- Seaborn, Matplotlib  
+- Scikit-learn  
+- XGBoost  
 
-Accuracy: 83.6%
+---
 
-F1-Score: 0.795870
+## 🚀 Getting Started
 
-XGBoost showed the best balance between precision and recall among all models.
-
-Additional analysis showed that larger training sizes slightly improved performance (up to 79.6%).
-
-
-📊 Visualizations Included
-Feature distributions
-
-Confusion matrices for each model
-
-Model performance comparison
-
-F1-Score vs. Training Data Size graph
-
-
-⚙️ Technologies Used
-Python
-
-Pandas & NumPy
-
-Matplotlib & Seaborn
-
-Scikit-learn
-
-XGBoost
-
-Jupyter Notebook
-
-🚀 Getting Started
 To run the project locally:
 
-# 1. Clone the repository
-git clone https://github.com/your-username/diabetes-ml-prediction
+---
 
-# 2. Change directory
-cd diabetes-ml-prediction
+### 1. Clone the repository
 
-# 3. Install dependencies
-pip install -r requirements.txt
-Make sure the dataset (diabetes_012_health_indicators_BRFSS2015.csv) is in your working directory.
-
-Then, open the notebook and run all cells:
-jupyter notebook Diabetes_Prediction.ipynb
-
-💬 Feedback & Collaboration
-Feel free to fork the repo, open issues, or suggest improvements. I'm always open to learning and collaborating on health-focused AI solutions.
+```bash
+git clone https://github.com/sameerrr0111/Predicting_Diabetes_with_ML
