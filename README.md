@@ -1,6 +1,6 @@
 # 🤖 Predicting Diabetes with Machine Learning
 
-This project was built as part of my machine learning journey. The goal was to build a complete ML pipeline to predict diabetes using real-world health data from the **BRFSS 2015** dataset. It includes data cleaning, preprocessing, model comparison, and performance evaluation.
+This project was built as part of my machine learning journey. The goal was to build a complete ML pipeline to predict diabetes using real-world health data from the **diabetes_012_health_indicators_BRFSS2015.** dataset. It includes data cleaning, preprocessing, model comparison, and performance evaluation.
 
 ---
 
