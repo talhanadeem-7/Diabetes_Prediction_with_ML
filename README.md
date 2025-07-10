@@ -87,7 +87,7 @@ To run the project locally:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/talhanadeem-7/Diabetes_Prediction_with_ML
+gh repo clone talhanadeem-7/Diabetes_Prediction_with_ML
 ```
 2. Open the code in VS Code or any other editor.
 
