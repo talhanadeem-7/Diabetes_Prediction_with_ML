@@ -84,17 +84,17 @@ To run the project locally:
 
 ---
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/talhanadeem-7/Diabetes_Prediction_with_ML
 ```
-### 2. Open the code in VS Code or any other editor.
+2. Open the code in VS Code or any other editor.
 
-### 3. Install the dependencies
+3. Install the dependencies
 ```bash
  pip install -r requirements.txt
 ```
-### 4. Load the dataset Place your dataset file i.e. diabetes_012_health_indicators_BRFSS2015.csv in the working directory.
+4. Load the dataset Place your dataset file i.e. diabetes_012_health_indicators_BRFSS2015.csv in the working directory.
 
-### 5. Run the notebook. Open the .ipynb file in Jupyter Notebook, Google Colab or VS Code and run all cells step by step.
+5. Run the notebook. Open the .ipynb file in Jupyter Notebook, Google Colab or VS Code and run all cells step by step.
